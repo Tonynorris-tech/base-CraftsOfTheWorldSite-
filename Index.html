@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crafts of the World</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo-area">
+      <div class="logo-circle">🌍</div>
+      <div>
+        <div class="site-title">Crafts of the World</div>
+        <div class="site-tagline">Natural • Artisanal • Worldwide</div>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <button>Countries ▾</button>
+          <div class="dropdown-menu">
+            <a href="kenya.html">Kenya</a>
+            <a href="belize.html">Belize</a>
+            <a href="borneo.html">Borneo</a>
+          </div>
+        </li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <h1>Welcome to Crafts of the World</h1>
+        <p>
+          We connect you with handcrafted items from small artisan communities in Kenya, Belize and Borneo.
+          Fair prices, natural materials and traditional techniques.
+        </p>
+        <div class="btn-row">
+          <a class="btn" href="kenya.html">Browse Kenya</a>
+          <a class="btn" href="belize.html">Browse Belize</a>
+          <a class="btn" href="borneo.html">Browse Borneo</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <h3>Handmade • Fair • Global</h3>
+        <p style="font-size:14px;">
+          Every piece is sourced directly from makers. Your purchase supports families and helps preserve craft traditions.
+        </p>
+      </div>
+    </section>
+
+    <h2 class="section-title">Why handmade?</h2>
+    <section class="info-grid">
+      <article class="info-card">
+        <h3>Culture in every piece</h3>
+        <p>Each craft carries stories, symbols and colours that reflect its origin community.</p>
+      </article>
+      <article class="info-card">
+        <h3>Fair & Transparent</h3>
+        <p>We work with co-operatives and small studios to make sure artisans are paid fairly.</p>
+      </article>
+      <article class="info-card">
+        <h3>Curated collections</h3>
+        <p>Start with Kenya, Belize or Borneo and discover unique materials and techniques.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Crafts of the World • Handmade • Fair • Global
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
