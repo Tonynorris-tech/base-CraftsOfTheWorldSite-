@@ -1,1 +1,64 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact us • Crafts of the World</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo-area">
+      <div class="logo-circle">🌍</div>
+      <div>
+        <div class="site-title">Crafts of the World</div>
+        <div class="site-tagline">Natural • Artisanal • Worldwide</div>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <button>Countries ▾</button>
+          <div class="dropdown-menu">
+            <a href="kenya.html">Kenya</a>
+            <a href="belize.html">Belize</a>
+            <a href="borneo.html">Borneo</a>
+          </div>
+        </li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="section-title">Contact us</h1>
+    <p>If you’d like to enquire about a craft or place a wholesale order, send us a message.</p>
+
+    <form>
+      <label>
+        Name
+        <input type="text" required>
+      </label>
+      <label>
+        Email
+        <input type="email" required>
+      </label>
+      <label>
+        Message
+        <textarea required></textarea>
+      </label>
+      <button class="btn btn-primary" type="submit">Send message</button>
+    </form>
+
+    <p style="margin-top:20px;font-size:14px;">
+      Or email us directly at <strong>info@craftsoftheworld.example</strong>
+    </p>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Crafts of the World • Contact
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
