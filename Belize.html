@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Belize • Crafts of the World</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo-area">
+      <div class="logo-circle">🌍</div>
+      <div>
+        <div class="site-title">Crafts of the World</div>
+        <div class="site-tagline">Natural • Artisanal • Worldwide</div>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <button>Countries ▾</button>
+          <div class="dropdown-menu">
+            <a href="kenya.html">Kenya</a>
+            <a href="belize.html">Belize</a>
+            <a href="borneo.html">Borneo</a>
+          </div>
+        </li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="section-title">Belize Collection</h1>
+    <p>Crafts from the diverse cultures of Belize, including Garifuna, Maya and Creole artisans.</p>
+
+    <section class="product-grid">
+      <article class="product-card">
+        <div class="product-image">Palmetto basket image</div>
+        <div class="product-title">Woven Palmetto Basket</div>
+        <div class="product-desc">Hand-woven from palmetto leaves. Ideal for storage or display.</div>
+        <div class="product-price">£35</div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image">Garifuna drum image</div>
+        <div class="product-title">Garifuna Drum (Primero)</div>
+        <div class="product-desc">Traditional hand-made drum used in cultural music and dance.</div>
+        <div class="product-price">£120</div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image">Carved calabash image</div>
+        <div class="product-title">Carved Calabash Bowl</div>
+        <div class="product-desc">Dried gourd etched with Belizean motifs.</div>
+        <div class="product-price">£24</div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Crafts of the World • Belize
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
