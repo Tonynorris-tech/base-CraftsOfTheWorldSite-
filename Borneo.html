@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Borneo • Crafts of the World</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo-area">
+      <div class="logo-circle">🌍</div>
+      <div>
+        <div class="site-title">Crafts of the World</div>
+        <div class="site-tagline">Natural • Artisanal • Worldwide</div>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <button>Countries ▾</button>
+          <div class="dropdown-menu">
+            <a href="kenya.html">Kenya</a>
+            <a href="belize.html">Belize</a>
+            <a href="borneo.html">Borneo</a>
+          </div>
+        </li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="section-title">Borneo Collection</h1>
+    <p>Pieces from indigenous communities of Borneo, including Iban, Dayak and other groups.</p>
+
+    <section class="product-grid">
+      <article class="product-card">
+        <div class="product-image">Pua kumbu textile</div>
+        <div class="product-title">Iban Pua Kumbu Textile (Small)</div>
+        <div class="product-desc">Intricately woven ceremonial textile with traditional motifs.</div>
+        <div class="product-price">£65</div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image">Hornbill carving</div>
+        <div class="product-title">Borneo Wood Carving – Hornbill</div>
+        <div class="product-desc">Hand-carved hornbill in local hardwood.</div>
+        <div class="product-price">£90</div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image">Beaded panel</div>
+        <div class="product-title">Beaded Panel</div>
+        <div class="product-desc">Glass-bead panel inspired by traditional patterns.</div>
+        <div class="product-price">£40</div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Crafts of the World • Borneo
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
