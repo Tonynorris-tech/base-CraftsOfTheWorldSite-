@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kenya • Crafts of the World</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Same header/nav as index -->
+  <header>
+    <div class="logo-area">
+      <div class="logo-circle">🌍</div>
+      <div>
+        <div class="site-title">Crafts of the World</div>
+        <div class="site-tagline">Natural • Artisanal • Worldwide</div>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <button>Countries ▾</button>
+          <div class="dropdown-menu">
+            <a href="kenya.html">Kenya</a>
+            <a href="belize.html">Belize</a>
+            <a href="borneo.html">Borneo</a>
+          </div>
+        </li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="section-title">Kenya Collection</h1>
+    <p>Handcrafted pieces from Kenyan artisans, using beadwork, weaving and carving traditions.</p>
+
+    <section class="product-grid">
+      <article class="product-card">
+        <div class="product-image">Kikoy blanket image</div>
+        <div class="product-title">Kikoy Handwoven Blanket</div>
+        <div class="product-desc">Hand-dyed cotton blanket from the Kenyan coast.</div>
+        <div class="product-price">£45</div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image">Maasai necklace image</div>
+        <div class="product-title">Maasai Beaded Necklace</div>
+        <div class="product-desc">Traditional Maasai beadwork in vibrant colours.</div>
+        <div class="product-price">£28</div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image">Soapstone dish image</div>
+        <div class="product-title">Carved Soapstone Dish</div>
+        <div class="product-desc">Locally quarried soapstone carved and hand-painted.</div>
+        <div class="product-price">£22</div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Crafts of the World • Kenya
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
